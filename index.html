@@ -124,14 +124,15 @@
         window.DEBUG = 0;
         if (window.DEBUG == 1) document.getElementById("preloader").style.zIndex = -1000;
 
+        //more app logic
+        load(["./defaults.js"])
+
         //your app logic
         append(app, "", "over") /* reset app */
         append(app, gen(header, "appheader", 'header', 'header'));
         append(app, gen(main, "appmain", 'main', 'appmain'));
         append(app, gen(footer, "appfooter", "", ''));
 
-        //more app logic
-        load(["./defaults.js"])
 
         load("./index.js")
         setTimeout(() => {
