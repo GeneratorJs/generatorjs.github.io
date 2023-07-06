@@ -1,4 +1,0 @@
-./
-./jstricks
-./markdown
-./calculator

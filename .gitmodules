@@ -1,3 +1,6 @@
 [submodule "generatorjs.cdn"]
 	path = generatorjs.cdn
 	url = https://github.com/GeneratorJs/generatorjs.cdn.git
+[submodule "Examples"]
+	path = Examples
+	url = git@github.com:GeneratorJs/Examples.git
