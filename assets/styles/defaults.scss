@@ -170,6 +170,7 @@ button,
 
 code,
 pre {
+    font-size:small;
     padding: 1em 2em;
     margin: 1em;
     max-width: 70em;
@@ -177,12 +178,17 @@ pre {
     hyphens: auto;
     word-wrap: break-word;
     word-break: break-all;
+    background-color: hsla(var(--hue),40%,30%,.3);
+    border:1px solid gray;
+    border-radius: 5px;
+    box-shadow: .1em .1em 5px hsla(var(--hue),40%,10%,.5) inset ;    box-shadow: 2px 2px 5px hsla(var(--hue),40%,30%,.5) inset;
+    
 }
 
 h1 {
     font-family: var(--dollarfonth1);
     margin-bottom: 1em;
-    font-size: clamp(1.2em, 5vw, 4em);
+    font-size: clamp(1.2em, 5vw, 2em);
     font-weight: 400;
     // border-bottom: 2px solid red;
     // display: inline-block;
@@ -192,7 +198,7 @@ h1 {
 h2 {
     // font-family: var(--dollarfonth2);
     margin-bottom: 1em;
-    font-size: clamp(1.1em, 4vw, 2em);
+    font-size: clamp(1.1em, 4vw, 1.8em);
     // font-style: italic;
 }
 
