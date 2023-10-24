@@ -52,12 +52,6 @@ append(install, gen(div, "singlefile", gen(h2, "", "Template index.html")))
 
 
 
-
-
-
-
-
-
 getfile("https://generatorjs.github.io/starter.html", (resp) => { append(singlefile, gen(code, 'singlefilecode', resp, 'code,small')) });
 
 
