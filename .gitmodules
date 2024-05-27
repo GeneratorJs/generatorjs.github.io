@@ -4,4 +4,4 @@
 
 [submodule "examples"]
 	path = examples
-	url = https://github.com/GeneratorJs/examples
+	url = https://github.com/GeneratorJs/examples.git
