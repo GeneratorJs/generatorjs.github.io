@@ -1,25 +1,25 @@
 { pkgs ? import <nixpkgs> {} }:
-# { pkgs ? import (fetchTarball  "https://github.com/NixOS/nixpkgs/tarball/nixos-23.11") {} }:
+#{ pkgs ? import (fetchTarball  "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05") {} }:
 let
   message = "Lets Start Development";
 in 
 pkgs.mkShellNoCC {
-  buildInputs = with pkgs; [ nodejs_21 ];
+  buildInputs = with pkgs; [ nodejs ];
 
   packages = with pkgs; [
-    nodejs_21
+    nodejs_22
     nodePackages.browser-sync 
     nodePackages.nodemon 
     nodePackages.parcel
     vscodium 
-    firefox-devedition 
+    firefox
     nodejs 
-    pkgs.nodePackages.nodemon
-    pkgs.nodePackages.browser-sync 
-    pkgs.nodePackages.parcel
+ #   pkgs.nodePackages.nodemon
+ #   pkgs.nodePackages.browser-sync 
+ #   pkgs.nodePackages.parcel
     vim 
     curl     
-    cinnamon.nemo
+  #  cinnamon.nemo
   ];
 
   shellHook = ''
