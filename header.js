@@ -1,6 +1,6 @@
 // import { loadscss } from "./cdn/latest/generator";
 
-function loadHeader() {
+async function loadHeader() {
 
     append(appheader, "", "over");
     append(appheader, gen("span", "title"));
