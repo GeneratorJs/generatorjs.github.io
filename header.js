@@ -5,11 +5,13 @@ function loadHeader() {
     append(appheader, "", "over");
     append(appheader, gen("span", "title"));
     append(title,
-        [
-            gen("span", "logo", gen("img", "sitelogo", "", "sitelogo", { "src": site.logo })),
-            gen("span", "siteheading")
-        ]
+           gen("span", "logo", gen("img", "sitelogo", "", "sitelogo", { "src": site.logo })),
     );
+
+    append(title,
+            gen("span", "siteheading")
+    );
+
 
     append(siteheading, gen("span", "sitetitle", gen(a, 'homelink', site.title, "", site.url)));
 
@@ -31,8 +33,8 @@ function loadHeader() {
         ['Home', '/#hero'],
         ['Install', '/#install'],
         ["Instructions", "/#instructions"],
-        // ["Examples", "/#example"],
-        // ["Blog", "/blog"],
+        ["Examples", "/example"],
+        ["Docs", "/docs"],
         ["Contact", "/#contact"]
     ];
 
