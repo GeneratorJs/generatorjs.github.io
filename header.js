@@ -69,8 +69,13 @@ loadHeader();
 
 
 
-
-document.title = site.title
+try {
+ 
+    document.title = site.title   
+} catch (error) {
+    
+    document.title = grab("h1,h2,h3,h4,h5,h6").innerText
+}
 
 var headerStyle = `
 .header {
