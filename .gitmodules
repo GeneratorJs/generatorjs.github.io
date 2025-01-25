@@ -5,3 +5,6 @@
 [submodule "examples"]
 	path = examples
 	url = git@github.com:GeneratorJs/examples.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:GeneratorJs/docs.git
