@@ -33,7 +33,7 @@ function loadHeader() {
         ['Home', '/#hero'],
         ['Install', '/#install'],
         ["Instructions", "/#instructions"],
-        ["Examples", "/example"],
+        ["Examples", "/examples"],
         ["Docs", "/docs"],
         ["Contact", "/#contact"]
     ];
