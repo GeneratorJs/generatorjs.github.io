@@ -91,6 +91,10 @@ instArray = ['Tagname can be any commonly used html tag, like div, p, img, span 
 ]
 
 
+const ghSponsorCard = `<iframe src="https://github.com/sponsors/GeneratorJs/card" title="Sponsor GeneratorJs" height="225" width="600" style="border: 0;"></iframe>`
+
+append(main,ghSponsorCard)
+
 
 document.getElementById(`installButton`).addEventListener('click', () => { install.scrollIntoView({ block: 'center', behavior: 'smooth' }) })
 document.getElementById(`instructionsButton`).addEventListener('click', () => { instructions.scrollIntoView({ block: 'center', behavior: 'smooth' }) })
