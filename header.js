@@ -35,7 +35,8 @@ function loadHeader() {
         ["Instructions", "/#instructions"],
         ["Examples", "/examples"],
         ["Docs", "/docs"],
-        ["Contact", "/#contact"]
+        ["Contact", "/#contact"],
+        ["Sponsor", "https://github.com/sponsors/GeneratorJs?o=esc"]
     ];
 
 
