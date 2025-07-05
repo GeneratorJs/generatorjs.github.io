@@ -5,3 +5,6 @@
 [submodule "docs"]
 	path = docs
 	url = git@github.com:GeneratorJs/docs.git
+[submodule "generatorjs.cdn"]
+	path = generatorjs.cdn
+	url = git@github.com:GeneratorJs/generatorjs.cdn.git
