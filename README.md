@@ -1,4 +1,5 @@
-# generatorjs
-A three function Javascript library for modular website frontend desing
+# GeneratorJS
+Also know as 
+## SevenJS: 7 function frontend library
 
 preview available at [generatorjs.mgeek.in](https://generatorjs.mgeek.in)
