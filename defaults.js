@@ -2,7 +2,7 @@
 var site = {}
 site.title = "GeneratorJs"
 site.site_title = site.title
-site.subtitle = "A three function Javascript library for modular website frontend desing"
+site.subtitle = "SevenJS : 7 function frontend library"
 site.logo = '/assets/img/logo.png'
 site.image = site.logo
 site.favicon = '/assets/img/favicon.ico'
